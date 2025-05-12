@@ -3,11 +3,11 @@ import Navbar from '../components/Navbar';
 
 const RootLayout = () => {
   return (
-    <>
-    <header>
-      <Navbar></Navbar>
-    </header>
-    </>
+    <div className='poppins w-full lg:w-10/12 mx-auto'>
+      <header>
+        <Navbar></Navbar>
+      </header>
+    </div>
   );
 };
 
